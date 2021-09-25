@@ -1,0 +1,43 @@
+Name file dna.py 
+
+Two test files dna.txt ecoli.txt 
+
+Reading sequences of nucleotide into program and processing them 
+
+What does the file look like? 
+
+-Pairs of strings 
+
+-name of sequence, (new line), the sequence 
+
+-each sequence will consist of only A, C, G, T, - 
+
+-input can be upper or lower case, but ignore it 
+
+Junk dna can be ignored (-) except for weight calculations 
+
+Loop through sequences 
+
+Counting nucleotides (acgt) 
+
+Compute mass/weight % 
+
+Display codons (3 nucleotides, ACC, ACT, GAT etc.) 
+
+Determine if the nucleotide sequence is a protein 
+
+Need to learn file format, weight of each nucleotide, and how to determine if something is a protein 
+
+What is a protein? Starts with ATG, ends with (TAA, TAG, TGA), has to have a minimum of 5 codons, mass % (A) + mass% (G), >= .3 
+
+Ask user for name of input and name of output file 
+
+Read input file 
+
+Process input file 
+
+Output results 
+
+The nucleotide output should be in ACGT order 
+
+Output mass % with one decimal point 
